@@ -1,0 +1,28 @@
+[
+  {
+    "name": "hyderabad",
+    "stateId": {
+      "code": "TG",
+      "name": "Telangana"
+    }
+  },
+  {
+    "name": "Aurangabad",
+    "stateId": {
+      "code": "MH",
+      "name": "Maharashtra"
+    }
+  },{
+    "name": "Bidar",
+    "stateId": {
+      "code": "KA",
+      "name": "Karnataka"
+    }
+  },{
+    "name": "Bhopal",
+    "stateId": {
+      "code": "MP",
+      "name": "Madhya Pradesh"
+    }
+  }
+]
