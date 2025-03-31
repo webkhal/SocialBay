@@ -1,0 +1,17 @@
+[
+  { "code": "TS", "name": "Telangana" },
+  { "code": "AP", "name": "Andhra Pradesh" },
+  { "code": "AS", "name": "Assam" },
+  { "code": "BR", "name": "Bihar" },
+  { "code": "CT", "name": "Chhattisgarh" },
+  { "code": "GA", "name": "Goa" },
+  { "code": "GJ", "name": "Gujarat" },
+  { "code": "HR", "name": "Haryana" },
+  { "code": "HP", "name": "Himachal Pradesh" },
+  { "code": "JK", "name": "Jammu and Kashmir" },
+  { "code": "JH", "name": "Jharkhand" },
+  { "code": "KA", "name": "Karnataka" },
+  { "code": "KL", "name": "Kerala" },
+  { "code": "MP", "name": "Madhya Pradesh" },
+  { "code": "MH", "name": "Maharashtra" }
+]

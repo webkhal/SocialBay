@@ -1,0 +1,100 @@
+/* login.css */
+
+/* Overall Container Style */
+.login-container {
+  background-color: #eef1f4; /* Soft light background for contrast */
+  display: flex;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 2rem; /* Added padding for better spacing */
+}
+
+/* Card Style */
+.p-card {
+  background-color: #ffffff; /* Clean white background */
+  border-radius: 8px; /* Slightly rounded corners */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  width: 400px; /* Fixed width for consistent layout */
+  padding: 2rem; /* Padding inside the card */
+  transition: box-shadow 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Hover effect for card */
+.p-card:hover {
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.15); /* Elevate on hover */
+}
+
+/* Title Style */
+.p-card h2 {
+  color: #333; /* Dark gray for title */
+  margin-bottom: 0.5rem; /* Spacing below title */
+  font-size: 1.8rem; /* Larger font for title */
+  font-weight: 600; /* Bold font weight for emphasis */
+}
+
+/* Description Style */
+.p-card p {
+  color: #555; /* Medium gray for description */
+  margin-bottom: 1.5rem; /* Spacing below description */
+  font-size: 1rem; /* Standard font size */
+}
+
+/* Image Style */
+.p-card img {
+  max-width: 100%;
+  height: auto; /* Responsive logo */
+  margin-bottom: 1.5rem; /* Spacing below logo */
+}
+
+/* Input Fields */
+.p-fluid .p-inputtext {
+  border-radius: 4px; /* Rounded corners for inputs */
+  border: 1px solid #ccc; /* Light border */
+  font-size: 1rem; /* Standard font size for inputs */
+}
+
+.p-fluid .p-inputtext:focus {
+  border-color: #007bff; /* Primary color on focus */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Glow effect on focus */
+}
+
+/* Error Message Style */
+.p-error {
+  color: #e74c3c; /* Red for error messages */
+  font-size: 0.875rem; /* Smaller font for error */
+  margin-top: 0.25rem; /* Spacing above error message */
+}
+
+/* Checkbox Style */
+.p-field-checkbox label {
+  color: #333; /* Dark gray for label */
+  font-size: 0.95rem; /* Standard font size */
+}
+
+/* Link Style */
+.p-text-secondary {
+  font-size: 0.95rem; /* Standard font size for link */
+  color: #007bff; /* Primary color for link */
+  text-decoration: none; /* No underline */
+}
+
+.p-text-secondary:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+/* Button Style */
+.p-button {
+  width: 100%; /* Full-width button */
+  font-size: 1rem; /* Standard font size */
+  border-radius: 4px; /* Slightly rounded corners */
+}
+
+/* Media Query for Responsive Design */
+@media (max-width: 768px) {
+  .p-card {
+    width: 90%; /* Responsive width */
+    padding: 1.5rem; /* Adjusted padding for smaller screens */
+  }
+}
